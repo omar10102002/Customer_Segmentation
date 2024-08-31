@@ -1,2 +1,4 @@
+sudo apt-get install python3-distutils
+pip install --upgrade pip
 streamlit==1.19.0
 numpy==1.23.0
