@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Load the model
-with open('E:\Epsilon Ai\Omar Hamad\Final Poject\crm_prediction.sav', 'rb') as file:
+with open('crm_prediction.sav', 'rb') as file:
     kmeans = pickle.load(file)
 st.title("Prediction of Customer Segmentation")
 
